@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.bachya.lpvm</string>
-	<key>category</key>
-	<string>Internet</string>
 	<key>connections</key>
 	<dict>
 		<key>2AB6F640-A9BD-4355-8A48-EDF7D3AEDBC2</key>
