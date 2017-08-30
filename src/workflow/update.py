@@ -249,7 +249,7 @@ def _validate_release(release):
         if ext not in downloads:
             continue
 
-        # Ignore Alfred 3-only files if Alfred 2 is running
+        # Ignore Alfred 3-only files if Alfred 3 is running
         if ext == '.alfred3workflow' and not alf3:
             continue
 

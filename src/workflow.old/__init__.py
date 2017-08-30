@@ -9,7 +9,7 @@
 #
 
 """
-A Python helper library for `Alfred 2 <http://www.alfredapp.com/>`_ Workflow
+A Python helper library for `Alfred 3 <http://www.alfredapp.com/>`_ Workflow
 authors.
 """
 

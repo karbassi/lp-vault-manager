@@ -14,7 +14,7 @@ import sys
 # Alfred Applescript Commands
 ####################################################################
 ALFRED_AS_LP_LOGIN = """
-tell application "Alfred 2" to search "lpsettings list-lastpass-settings"
+tell application "Alfred 3" to search "lpsettings list-lastpass-settings"
 """
 
 ####################################################################

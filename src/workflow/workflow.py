@@ -9,7 +9,7 @@
 
 """The :class:`Workflow` object is the main interface to this library.
 
-:class:`Workflow` is targeted at Alfred 2. Use
+:class:`Workflow` is targeted at Alfred 3. Use
 :class:`~workflow.Workflow3` if you want to use Alfred 3's new
 features, such as :ref:`workflow variables <workflow-variables>` or
 more powerful modifiers.
@@ -1090,7 +1090,7 @@ class Workflow(object):
     storing & caching data, using Keychain, and generating Script
     Filter feedback.
 
-    ``Workflow`` is compatible with both Alfred 2 and 3. The
+    ``Workflow`` is compatible with both Alfred 3 and 3. The
     :class:`~workflow.Workflow3` subclass provides additional,
     Alfred 3-only features, such as workflow variables.
 
@@ -1201,7 +1201,7 @@ class Workflow(object):
 
         .. versionadded:: 1.7
 
-        The variables Alfred 2.4+ exports are:
+        The variables Alfred 3.4+ exports are:
 
         ============================  =========================================
         Variable                      Description
@@ -1443,7 +1443,7 @@ class Workflow(object):
 
     @property
     def _default_cachedir(self):
-        """Alfred 2's default cache directory."""
+        """Alfred 3's default cache directory."""
         return os.path.join(
             os.path.expanduser(
                 '~/Library/Caches/com.runningwithcrayons.Alfred-2/'
@@ -1457,7 +1457,7 @@ class Workflow(object):
         The data directory is a subdirectory of Alfred's own data directory in
         ``~/Library/Application Support``. The full path is:
 
-        ``~/Library/Application Support/Alfred 2/Workflow Data/<bundle id>``
+        ``~/Library/Application Support/Alfred 3/Workflow Data/<bundle id>``
 
         :returns: full path to workflow data directory
         :rtype: ``unicode``
@@ -1473,9 +1473,9 @@ class Workflow(object):
 
     @property
     def _default_datadir(self):
-        """Alfred 2's default data directory."""
+        """Alfred 3's default data directory."""
         return os.path.join(os.path.expanduser(
-            '~/Library/Application Support/Alfred 2/Workflow Data/'),
+            '~/Library/Application Support/Alfred 3/Workflow Data/'),
             self.bundleid)
 
     @property

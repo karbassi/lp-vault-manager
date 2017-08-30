@@ -13,7 +13,7 @@ import utilities
 ####################################################################
 # Alfred Commands
 ####################################################################
-ALFRED_AS_SETTINGS = 'tell application "Alfred 2" to search "lpsettings"'
+ALFRED_AS_SETTINGS = 'tell application "Alfred 3" to search "lpsettings"'
 
 ####################################################################
 # Miscellaneous

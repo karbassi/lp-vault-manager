@@ -13,8 +13,8 @@ import sys
 ####################################################################
 # Constants
 ####################################################################
-ALFRED_AS_LOGIN = 'tell application "Alfred 2" to search ">{} login {} && exit"'
-ALFRED_AS_SETTINGS = 'tell application "Alfred 2" to search "lpsettings"'
+ALFRED_AS_LOGIN = 'tell application "Alfred 3" to search ">{} login {} && exit"'
+ALFRED_AS_SETTINGS = 'tell application "Alfred 3" to search "lpsettings"'
 DEFAULT_COMMAND = 'list-settings'
 DELIMITER = '⟩'
 GITHUB_URL = 'https://github.com/bachya/lp-vault-manager'

@@ -963,7 +963,7 @@ class Workflow(object):
 
         .. versionadded:: 1.7
 
-        The variables Alfred 2.4+ exports are:
+        The variables Alfred 3.4+ exports are:
 
         ============================  =========================================
         Variable                      Description
@@ -1188,7 +1188,7 @@ class Workflow(object):
         The data directory is a subdirectory of Alfred's own data directory in
         ``~/Library/Application Support``. The full path is:
 
-        ``~/Library/Application Support/Alfred 2/Workflow Data/<bundle id>``
+        ``~/Library/Application Support/Alfred 3/Workflow Data/<bundle id>``
 
         :returns: full path to workflow data directory
         :rtype: ``unicode``
@@ -1200,7 +1200,7 @@ class Workflow(object):
 
         else:
             dirpath = os.path.join(os.path.expanduser(
-                '~/Library/Application Support/Alfred 2/Workflow Data/'),
+                '~/Library/Application Support/Alfred 3/Workflow Data/'),
                 self.bundleid)
 
         return self._create(dirpath)

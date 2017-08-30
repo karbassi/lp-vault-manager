@@ -12,7 +12,7 @@ import subprocess
 ####################################################################
 # Alfred Commands
 ####################################################################
-ALFRED_AS_LOGIN = 'tell application "Alfred 2" to search ">{} login {} && exit"'
+ALFRED_AS_LOGIN = 'tell application "Alfred 3" to search ">{} login {} && exit"'
 
 ####################################################################
 # Browsers
